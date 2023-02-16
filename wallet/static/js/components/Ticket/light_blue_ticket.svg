@@ -1,0 +1,52 @@
+var _mask, _path, _path2, _mask2, _path3;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgLightBlueTicket(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 53,
+    height: 31,
+    viewBox: "0 0 53 31",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _mask || (_mask = /*#__PURE__*/React.createElement("mask", {
+    id: "path-1-inside-1_934_2387",
+    fill: "white"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0.875977 0.611328H52.595V9.6875H52.5947C49.281 9.6875 46.5947 12.3738 46.5947 15.6875C46.5947 19.0012 49.281 21.6875 52.5947 21.6875H52.595V30.7643H0.875977V21.6875C4.18969 21.6875 6.87598 19.0012 6.87598 15.6875C6.87598 12.3738 4.18969 9.6875 0.875977 9.6875V0.611328Z"
+  }))), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0.875977 0.611328H52.595V9.6875H52.5947C49.281 9.6875 46.5947 12.3738 46.5947 15.6875C46.5947 19.0012 49.281 21.6875 52.5947 21.6875H52.595V30.7643H0.875977V21.6875C4.18969 21.6875 6.87598 19.0012 6.87598 15.6875C6.87598 12.3738 4.18969 9.6875 0.875977 9.6875V0.611328Z",
+    fill: "#E6EAFF"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M52.595 0.611328H53.595V-0.388672H52.595V0.611328ZM0.875977 0.611328V-0.388672H-0.124023V0.611328H0.875977ZM52.595 9.6875V10.6875H53.595V9.6875H52.595ZM52.595 21.6875H53.595V20.6875H52.595V21.6875ZM52.595 30.7643V31.7643H53.595V30.7643H52.595ZM0.875977 30.7643H-0.124023V31.7643H0.875977V30.7643ZM0.875977 21.6875V20.6875H-0.124023V21.6875H0.875977ZM0.875977 9.6875H-0.124023V10.6875H0.875977V9.6875ZM52.595 -0.388672H0.875977V1.61133H52.595V-0.388672ZM53.595 9.6875V0.611328H51.595V9.6875H53.595ZM52.5947 10.6875H52.595V8.6875H52.5947V10.6875ZM47.5947 15.6875C47.5947 12.9261 49.8333 10.6875 52.5947 10.6875V8.6875C48.7287 8.6875 45.5947 11.8215 45.5947 15.6875H47.5947ZM52.5947 20.6875C49.8333 20.6875 47.5947 18.4489 47.5947 15.6875H45.5947C45.5947 19.5535 48.7287 22.6875 52.5947 22.6875V20.6875ZM52.595 20.6875H52.5947V22.6875H52.595V20.6875ZM53.595 30.7643V21.6875H51.595V30.7643H53.595ZM0.875977 31.7643H52.595V29.7643H0.875977V31.7643ZM-0.124023 21.6875V30.7643H1.87598V21.6875H-0.124023ZM5.87598 15.6875C5.87598 18.4489 3.6374 20.6875 0.875977 20.6875V22.6875C4.74197 22.6875 7.87598 19.5535 7.87598 15.6875H5.87598ZM0.875977 10.6875C3.6374 10.6875 5.87598 12.9261 5.87598 15.6875H7.87598C7.87598 11.8215 4.74197 8.6875 0.875977 8.6875V10.6875ZM-0.124023 0.611328V9.6875H1.87598V0.611328H-0.124023Z",
+    fill: "#1F43F6",
+    mask: "url(#path-1-inside-1_934_2387)"
+  })), _mask2 || (_mask2 = /*#__PURE__*/React.createElement("mask", {
+    id: "path-3-inside-2_934_2387",
+    fill: "white"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M5.87598 5.61133C5.87598 5.05904 6.32369 4.61133 6.87598 4.61133H47.4369C47.9891 4.61133 48.4369 5.05904 48.4369 5.61133V5.79569C44.707 7.40672 42.0967 11.1182 42.0967 15.4395C42.0967 19.7607 44.707 23.4722 48.4369 25.0832V25.1368C48.4369 25.689 47.9891 26.1368 47.4369 26.1368H6.87598C6.32369 26.1368 5.87598 25.689 5.87598 25.1368V24.6748C9.15179 22.8976 11.376 19.4283 11.376 15.4395C11.376 11.4506 9.15179 7.98133 5.87598 6.20407V5.61133Z"
+  }))), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M48.4369 5.79569L48.8334 6.71372L49.4369 6.45306V5.79569H48.4369ZM48.4369 25.0832H49.4369V24.4258L48.8334 24.1652L48.4369 25.0832ZM5.87598 24.6748L5.3991 23.7959L4.87598 24.0797V24.6748H5.87598ZM5.87598 6.20407H4.87598V6.79923L5.3991 7.08304L5.87598 6.20407ZM6.87598 3.61133C5.77141 3.61133 4.87598 4.50676 4.87598 5.61133H6.87598V5.61133V3.61133ZM47.4369 3.61133H6.87598V5.61133H47.4369V3.61133ZM49.4369 5.61133C49.4369 4.50676 48.5414 3.61133 47.4369 3.61133V5.61133H49.4369ZM49.4369 5.79569V5.61133H47.4369V5.79569H49.4369ZM43.0967 15.4395C43.0967 11.5314 45.4567 8.1722 48.8334 6.71372L48.0403 4.87767C43.9573 6.64124 41.0967 10.7051 41.0967 15.4395H43.0967ZM48.8334 24.1652C45.4567 22.7067 43.0967 19.3476 43.0967 15.4395H41.0967C41.0967 20.1738 43.9573 24.2377 48.0403 26.0012L48.8334 24.1652ZM49.4369 25.1368V25.0832H47.4369V25.1368H49.4369ZM47.4369 27.1368C48.5414 27.1368 49.4369 26.2413 49.4369 25.1368H47.4369V25.1368V27.1368ZM6.87598 27.1368H47.4369V25.1368H6.87598V27.1368ZM4.87598 25.1368C4.87598 26.2413 5.7714 27.1368 6.87598 27.1368V25.1368H6.87598H4.87598ZM4.87598 24.6748V25.1368H6.87598V24.6748H4.87598ZM10.376 15.4395C10.376 19.047 8.36549 22.1865 5.3991 23.7959L6.35285 25.5538C9.93808 23.6087 12.376 19.8095 12.376 15.4395H10.376ZM5.3991 7.08304C8.36549 8.69243 10.376 11.8319 10.376 15.4395H12.376C12.376 11.0694 9.93808 7.27023 6.35285 5.3251L5.3991 7.08304ZM4.87598 5.61133V6.20407H6.87598V5.61133H4.87598Z",
+    fill: "#1F43F6",
+    mask: "url(#path-3-inside-2_934_2387)"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgLightBlueTicket);
+export default __webpack_public_path__ + "static/media/light_blue_ticket.2a2fdc8a.svg";
+export { ForwardRef as ReactComponent };

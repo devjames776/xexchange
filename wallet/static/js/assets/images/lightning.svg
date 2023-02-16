@@ -1,0 +1,54 @@
+var _g;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgLightning(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 31.114,
+    height: 44.981,
+    viewBox: "0 0 31.114 44.981",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Group_1331",
+    "data-name": "Group 1331",
+    transform: "translate(-47.168 -21.519)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group_1321",
+    "data-name": "Group 1321",
+    transform: "translate(-247.872 -130.693)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_1838",
+    "data-name": "Path 1838",
+    d: "M355.676,152.213l-3.832,17.8h-9.661Z",
+    transform: "translate(-40.089 1)",
+    fillRule: "evenodd",
+    fill: "currentColor"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Path_1839",
+    "data-name": "Path 1839",
+    d: "M326.45,271.184l-7.053,9.379H295.04l7.054-9.379Z",
+    transform: "translate(0 -101.17)",
+    fillRule: "evenodd",
+    fill: "currentColor"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Path_1840",
+    "data-name": "Path 1840",
+    d: "M381.139,333.864l-13.493,17.8,3.832-17.8Z",
+    transform: "translate(-61.742 -155.472)",
+    fillRule: "evenodd",
+    fill: "currentColor"
+  })))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgLightning);
+export default __webpack_public_path__ + "static/media/lightning.b79e759f.svg";
+export { ForwardRef as ReactComponent };

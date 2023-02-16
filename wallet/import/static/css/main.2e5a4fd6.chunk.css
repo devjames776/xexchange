@@ -1,0 +1,38 @@
+.assets-card.total .card {
+    background: url(/static/media/total.ca89ff06.png) 50% no-repeat, linear-gradient(153.43deg, #1233b2, #3464d0)
+}
+
+.assets-card.available .card {
+    background: url(/static/media/available.704631ab.png) 50% no-repeat, linear-gradient(153.43deg, #3585dd, #64adeb)
+}
+
+.assets-card.rewards .card {
+    background: url(/static/media/rewards.a428eba1.png) 50% no-repeat, linear-gradient(153.43deg, #209d67, #4bc197)
+}
+
+.assets-card.delegated .card {
+    background: url(/static/media/delegated.f7683268.png) 50% no-repeat, linear-gradient(153.43deg, #eaa822, #f2c64b)
+}
+
+.assets-card.staked .card {
+    background: url(/static/media/staked.e6e91cfd.png) 50% no-repeat, linear-gradient(153.43deg, #dfa365, #dfa365)
+}
+
+.no-delegations .left-card {
+    background: url(/static/media/no-delegations-bg@2x.d1cd490e.png) 0 no-repeat, linear-gradient(90deg, #545152, #000 88%, transparent 0) 0 no-repeat;
+    background-size: cover
+}
+
+.claim-rewards-modal .card-body {
+    background-image: url(/static/media/reward-header-bg@2x.bfd93ab1.png) !important;
+    background-size: contain
+}
+
+.claim-header .amount-container {
+    background: url(/static/media/reward-value-bg.9c3c8b35.svg) 0 no-repeat;
+    background-size: cover
+}
+
+.home-layout .footer {
+    background: url(/static/media/planet.6c96754a.png) no-repeat center -2.06rem
+}
